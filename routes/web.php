@@ -48,18 +48,51 @@ Route::get('/foody/editChallenges', function () {
 
 //Route categories
 
-Route::get('/foody/categories', function () {
-    return view('admin.categories.index');
+//1.1 Diseases
+
+Route::get('/foody/diseases', function () {
+    return view('admin.categories.diseases.index');
 })->name("categories.index");
 
 
-Route::get('/foody/addCategories', function () {
-    return view('admin.categories.create');
+Route::get('/foody/addDiseases', function () {
+    return view('admin.categories.diseases.create');
 })->name("categories.create");
 
-Route::get('/foody/editCategories', function () {
-    return view('admin.categories.edit');
+Route::get('/foody/editDiseases', function () {
+    return view('admin.categories.diseases.edit');
 })->name("categories.edit");
+
+
+//1.2 forbidden
+
+Route::get('/foody/forbidden', function () {
+    return view('admin.categories.forbidden.index');
+})->name("forbidden.index");
+
+Route::get('/foody/addForbidden', function () {
+    return view('admin.categories.forbidden.create');
+})->name("forbidden.create");
+
+Route::get('/foody/editForbidden', function () {
+    return view('admin.categories.forbidden.edit');
+})->name("forbidden.edit");
+
+//1.3 alternatives
+
+Route::get('/foody/alternatives', function () {
+    return view('admin.categories.alternatives.index');
+})->name("alternatives.index");
+
+Route::get('/foody/addAlternatives', function () {
+    return view('admin.categories.alternatives.create');
+})->name("alternatives.create");
+
+Route::get('/foody/editAlternatives', function () {
+    return view('admin.categories.alternatives.edit');
+})->name("alternatives.edit");
+
+
 
 //Route orders
 

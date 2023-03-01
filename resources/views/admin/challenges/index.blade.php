@@ -10,14 +10,14 @@
                     <div>
                         <a href="{{route('challenges.create')}}"class="btn-primary btn-sm">
                             <i class="fas fa-plus-circle mr-1"></i>
-                            Add Challenges
+                            Add Coupons
                         </a>
                     </div>
                 </div>
                     
                     <div class="col-12">
                         <div class="bg-secondary rounded h-100 p-4">
-                            <h6 class="mb-4">All Challenges</h6>
+                            <h6 class="mb-4">All Coupons</h6>
                             <table class="table table-bordered">
                                 <thead>
                                     <tr>

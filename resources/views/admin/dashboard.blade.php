@@ -26,7 +26,7 @@
                         <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
                             <i class="fa fa-chart-area fa-3x text-primary"></i>
                             <div class="ms-3">
-                                <p class="mb-2">Today Salary</p>
+                                <p class="mb-2">Today Sale</p>
                                 <h6 class="mb-0">$1234</h6>
                             </div>
                         </div>
@@ -48,13 +48,13 @@
                 <div class="row g-4">
                     <div class="col-sm-12 col-xl-6">
                         <div class="bg-secondary rounded h-100 p-4">
-                            <h6 class="mb-4">Single Line Chart</h6>
+                            <h6 class="mb-4">Revenue</h6>
                             <canvas id="line-chart"></canvas>
                         </div>
                     </div>
                     <div class="col-sm-12 col-xl-6">
                         <div class="bg-secondary rounded h-100 p-4">
-                            <h6 class="mb-4">Multiple Line Chart</h6>
+                            <h6 class="mb-4">Orders Summary</h6>
                             <canvas id="salse-revenue"></canvas>
                         </div>
                     </div>

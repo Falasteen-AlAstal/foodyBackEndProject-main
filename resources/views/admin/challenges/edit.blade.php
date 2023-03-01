@@ -9,10 +9,10 @@
             <div class="container-fluid pt-4 px-4">
                 <div class="row g-4">
 
-                <h1 class="h3 mb-2 text-gray-800">Edit Challenge</h1>
+                <h1 class="h3 mb-2 text-gray-800">Edit Coupons</h1>
             <div class="col-12">
                         <div class="bg-secondary rounded h-100 p-4">
-                            <h6 class="mb-4">challenge Edit Form</h6>
+                            <h6 class="mb-4">Coupons Edit Form</h6>
 
 
                             <div class="form-floating mb-3">

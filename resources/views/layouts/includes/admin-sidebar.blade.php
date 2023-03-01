@@ -15,10 +15,17 @@
                 </div>
                 <div class="navbar-nav w-100">
                     <a href="{{route('dashboard.index')}}" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
-                    
+                  
                     <a href="{{route('meals.index')}}" class="nav-item nav-link"><i class="fa fa-coffee me-2"></i>Meals</a>
-                    <a href="{{route('challenges.index')}}" class="nav-item nav-link"><i class="fa fa-sign-language me-2"></i>Challenges</a>
-                    <a href="{{route('categories.index')}}" class="nav-item nav-link"><i class="fas fa-fw fa-folder me-2"></i>Categories</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fas fa-fw fa-folder me-2"></i>Categories</a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a href="{{route('categories.index')}}" class="dropdown-item">Diseases</a>
+                            <a href="{{route('forbidden.index')}}" class="dropdown-item">Forbidden Foods</a>
+                            <a href="{{route('alternatives.index')}}" class="dropdown-item">Alternatives</a>
+                        </div>
+                    </div>
+                    <a href="{{route('challenges.index')}}" class="nav-item nav-link"><i class="fa fa-sign-language me-2"></i>Coupons</a>
                     <a href="{{route('orders.index')}}" class="nav-item nav-link"><i class="fa fa-shopping-cart me-2"></i>Orders</a>
                     <a href="{{route('messages.index')}}" class="nav-item nav-link"><i class="fa fa-envelope me-2"></i>Messages</a>
                     <a href="chart.html" class="nav-item nav-link"><i class="fa fa-bell me-2"></i>Notification</a>

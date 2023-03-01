@@ -23,9 +23,8 @@
                                     <tr>
                                         <th scope="col">Action</th>
                                         <th scope="col">Image</th>
-                                        <th scope="col">Title</th>
+                                        <th scope="col">Name</th>
                                         <th scope="col">Description</th>
-                                        <th scope="col">Category</th>
                                         <th scope="col">Price</th>
                                         <th scope="col">Quantity</th>
                                     </tr>
@@ -43,9 +42,8 @@
                                         <td><img src="{{asset('/img/cheap-meals.jpeg')}}" width="70" height="70" alt=""></td>
                                         <td>Doe</td>
                                         <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
+                                        <td>10$</td>
+                                        <td>15</td>
                                     </tr>
 
                                     <tr>
@@ -58,173 +56,126 @@
                                         </th>
                                         <td><img src="{{asset('/img/cheap-meals.jpeg')}}" width="70" height="70" alt=""></td>
                                         <td>Otto</td>
-                                        <td>mark@email.com</td>
                                         <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                    </tr>
-
-                                    <tr>
-                                        <th scope="row">
-                                        <div class="action d-flex flex-row">
-                                    <a href="{{route('meals.edit')}}" class="btn-primary btn btn-sm mr-2"><i class="fas fa-edit"></i></a>
-
-                                    <button type="submit" onclick="return confirm('Book will move to trash! Are you sure to delete??')" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
-                                </div>
-                                        </th>
-                                        <td><img src="{{asset('/img/cheap-meals.jpeg')}}" width="70" height="70" alt=""></td>
-                                        <td>Otto</td>
-                                        <td>mark@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                    </tr>
-
-                                    <tr>
-                                        <th scope="row">
-                                        <div class="action d-flex flex-row">
-                                    <a href="{{route('meals.edit')}}" class="btn-primary btn btn-sm mr-2"><i class="fas fa-edit"></i></a>
-
-                                    <button type="submit" onclick="return confirm('Book will move to trash! Are you sure to delete??')" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
-                                </div>
-                                        </th>
-                                        <td><img src="{{asset('/img/cheap-meals.jpeg')}}" width="70" height="70" alt=""></td>
-                                        <td>Otto</td>
-                                        <td>mark@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                    </tr>
-
-                                    <tr>
-                                        <th scope="row">
-                                        <div class="action d-flex flex-row">
-                                    <a href="{{route('meals.edit')}}" class="btn-primary btn btn-sm mr-2"><i class="fas fa-edit"></i></a>
-
-                                    <button type="submit" onclick="return confirm('Book will move to trash! Are you sure to delete??')" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
-                                </div>
-                                        </th>
-                                        <td><img src="{{asset('/img/cheap-meals.jpeg')}}" width="70" height="70" alt=""></td>
-                                        <td>Otto</td>
-                                        <td>mark@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                    </tr>
-
-                                    <tr>
-                                        <th scope="row">
-                                        <div class="action d-flex flex-row">
-                                    <a href="{{route('meals.edit')}}" class="btn-primary btn btn-sm mr-2"><i class="fas fa-edit"></i></a>
-
-                                    <button type="submit" onclick="return confirm('Book will move to trash! Are you sure to delete??')" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
-                                </div>
-                                        </th>
-                                        <td><img src="{{asset('/img/cheap-meals.jpeg')}}" width="70" height="70" alt=""></td>
-                                        <td>Otto</td>
-                                        <td>mark@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                    </tr>
-
-                                    <tr>
-                                        <th scope="row">
-                                        <div class="action d-flex flex-row">
-                                    <a href="{{route('meals.edit')}}" class="btn-primary btn btn-sm mr-2"><i class="fas fa-edit"></i></a>
-
-                                    <button type="submit" onclick="return confirm('Book will move to trash! Are you sure to delete??')" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
-                                </div>
-                                        </th>
-                                        <td><img src="{{asset('/img/cheap-meals.jpeg')}}" width="70" height="70" alt=""></td>
-                                        <td>Otto</td>
-                                        <td>mark@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                    </tr>
-
-                                    <tr>
-                                        <th scope="row">
-                                        <div class="action d-flex flex-row">
-                                    <a href="{{route('meals.edit')}}" class="btn-primary btn btn-sm mr-2"><i class="fas fa-edit"></i></a>
-
-                                    <button type="submit" onclick="return confirm('Book will move to trash! Are you sure to delete??')" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
-                                </div>
-                                        </th>
-                                        <td><img src="{{asset('/img/cheap-meals.jpeg')}}" width="70" height="70" alt=""></td>
-                                        <td>Otto</td>
-                                        <td>mark@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                    </tr>
-
-                                    <tr>
-                                        <th scope="row">
-                                        <div class="action d-flex flex-row">
-                                    <a href="{{route('meals.edit')}}" class="btn-primary btn btn-sm mr-2"><i class="fas fa-edit"></i></a>
-
-                                    <button type="submit" onclick="return confirm('Book will move to trash! Are you sure to delete??')" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
-                                </div>
-                                        </th>
-                                        <td><img src="{{asset('/img/cheap-meals.jpeg')}}" width="70" height="70" alt=""></td>
-                                        <td>Otto</td>
-                                        <td>mark@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                    </tr>
-
-                                    <tr>
-                                        <th scope="row">
-                                        <div class="action d-flex flex-row">
-                                    <a href="{{route('meals.edit')}}" class="btn-primary btn btn-sm mr-2"><i class="fas fa-edit"></i></a>
-
-                                    <button type="submit" onclick="return confirm('Book will move to trash! Are you sure to delete??')" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
-                                </div>
-                                        </th>
-                                        <td><img src="{{asset('/img/cheap-meals.jpeg')}}" width="70" height="70" alt=""></td>
-                                        <td>Otto</td>
-                                        <td>mark@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                    </tr>
-
-                                    <tr>
-                                        <th scope="row">
-                                        <div class="action d-flex flex-row">
-                                    <a href="{{route('meals.edit')}}" class="btn-primary btn btn-sm mr-2"><i class="fas fa-edit"></i></a>
-
-                                    <button type="submit" onclick="return confirm('Book will move to trash! Are you sure to delete??')" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
-                                </div>
-                                        </th>
-                                        <td><img src="{{asset('/img/cheap-meals.jpeg')}}" width="70" height="70" alt=""></td>
-                                        <td>Otto</td>
-                                        <td>mark@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                    </tr>
-
-                                    <tr>
-                                        <th scope="row">
-                                        <div class="action d-flex flex-row">
-                                    <a href="{{route('meals.edit')}}" class="btn-primary btn btn-sm mr-2"><i class="fas fa-edit"></i></a>
-
-                                    <button type="submit" onclick="return confirm('Book will move to trash! Are you sure to delete??')" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
-                                </div>
-                                        </th>
-                                        <td><img src="{{asset('/img/cheap-meals.jpeg')}}" width="70" height="70" alt=""></td>
-                                        <td>Otto</td>
-                                        <td>mark@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                        <td>jhon@email.com</td>
-                                    </tr>
-
+                                        <td>12$</td>
+                                        <td>15</td>
                                    
+                                    </tr>
+
+
+
+                                    
+                                    <tr>
+                                        <th scope="row">
+                                        <div class="action d-flex flex-row">
+                                    <a href="{{route('meals.edit')}}" class="btn-primary btn btn-sm mr-2"><i class="fas fa-edit"></i></a>
+
+                                    <button type="submit" onclick="return confirm('Book will move to trash! Are you sure to delete??')" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+                                </div>
+                                        </th>
+                                        <td><img src="{{asset('/img/cheap-meals.jpeg')}}" width="70" height="70" alt=""></td>
+                                        <td>Otto</td>
+                                        <td>jhon@email.com</td>
+                                        <td>12$</td>
+                                        <td>15</td>
+                                   
+                                    </tr>
+
+
+
+                                    
+                                    <tr>
+                                        <th scope="row">
+                                        <div class="action d-flex flex-row">
+                                    <a href="{{route('meals.edit')}}" class="btn-primary btn btn-sm mr-2"><i class="fas fa-edit"></i></a>
+
+                                    <button type="submit" onclick="return confirm('Book will move to trash! Are you sure to delete??')" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+                                </div>
+                                        </th>
+                                        <td><img src="{{asset('/img/cheap-meals.jpeg')}}" width="70" height="70" alt=""></td>
+                                        <td>Otto</td>
+                                        <td>jhon@email.com</td>
+                                        <td>12$</td>
+                                        <td>15</td>
+                                   
+                                    </tr>
+
+
+
+                                    
+                                    <tr>
+                                        <th scope="row">
+                                        <div class="action d-flex flex-row">
+                                    <a href="{{route('meals.edit')}}" class="btn-primary btn btn-sm mr-2"><i class="fas fa-edit"></i></a>
+
+                                    <button type="submit" onclick="return confirm('Book will move to trash! Are you sure to delete??')" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+                                </div>
+                                        </th>
+                                        <td><img src="{{asset('/img/cheap-meals.jpeg')}}" width="70" height="70" alt=""></td>
+                                        <td>Otto</td>
+                                        <td>jhon@email.com</td>
+                                        <td>12$</td>
+                                        <td>15</td>
+                                   
+                                    </tr>
+
+
+
+                                    
+                                    <tr>
+                                        <th scope="row">
+                                        <div class="action d-flex flex-row">
+                                    <a href="{{route('meals.edit')}}" class="btn-primary btn btn-sm mr-2"><i class="fas fa-edit"></i></a>
+
+                                    <button type="submit" onclick="return confirm('Book will move to trash! Are you sure to delete??')" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+                                </div>
+                                        </th>
+                                        <td><img src="{{asset('/img/cheap-meals.jpeg')}}" width="70" height="70" alt=""></td>
+                                        <td>Otto</td>
+                                        <td>jhon@email.com</td>
+                                        <td>12$</td>
+                                        <td>15</td>
+                                   
+                                    </tr>
+
+
+
+                                    
+                                    <tr>
+                                        <th scope="row">
+                                        <div class="action d-flex flex-row">
+                                    <a href="{{route('meals.edit')}}" class="btn-primary btn btn-sm mr-2"><i class="fas fa-edit"></i></a>
+
+                                    <button type="submit" onclick="return confirm('Book will move to trash! Are you sure to delete??')" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+                                </div>
+                                        </th>
+                                        <td><img src="{{asset('/img/cheap-meals.jpeg')}}" width="70" height="70" alt=""></td>
+                                        <td>Otto</td>
+                                        <td>jhon@email.com</td>
+                                        <td>12$</td>
+                                        <td>15</td>
+                                   
+                                    </tr>
+
+
+                                    
+                                    <tr>
+                                        <th scope="row">
+                                        <div class="action d-flex flex-row">
+                                    <a href="{{route('meals.edit')}}" class="btn-primary btn btn-sm mr-2"><i class="fas fa-edit"></i></a>
+
+                                    <button type="submit" onclick="return confirm('Book will move to trash! Are you sure to delete??')" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></button>
+                                </div>
+                                        </th>
+                                        <td><img src="{{asset('/img/cheap-meals.jpeg')}}" width="70" height="70" alt=""></td>
+                                        <td>Otto</td>
+                                        <td>jhon@email.com</td>
+                                        <td>12$</td>
+                                        <td>15</td>
+                                   
+                                    </tr>
+
+                                                                    
 
                                    
                                 </tbody>
