@@ -18,7 +18,11 @@ class FoodsTable extends Migration
             $table->string('name');
             $table->string('Photo');
             $table->integer('cat_id')->unsigned()->index();
-            $table->integer('price');
+            $table->double('price');
+            $table->integer('quantity');
+            $table->double('rate');
+            $table->double('weight');
+
             $table->timestamps();
         });
     }

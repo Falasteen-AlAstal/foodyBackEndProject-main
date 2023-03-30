@@ -16,10 +16,11 @@ class CreateMealsTable extends Migration
         Schema::create('meals', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
+            $table->string('description');
             $table->string('Photo');
             $table->integer('user_id')->unsigned()->index();
-            $table->integer('price');
-            $table->string('rate');
+            $table->double('price');
+            $table->double('rate');
             $table->timestamps();
         });
     }

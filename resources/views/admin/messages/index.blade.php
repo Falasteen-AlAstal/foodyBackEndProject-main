@@ -15,11 +15,10 @@
                                 <thead>
                                     <tr>
                                         <th scope="col">Action</th>
-                                        <th scope="col">id</th>
                                         <th scope="col">User Name</th>
                                         <th scope="col">Email</th>
-                                        <th scope="col">Title</th>
-                                        <th scope="col">Description</th>
+                                        <th scope="col">Message</th>
+                                        <th scope="col">Phone</th>
                                         <th scope="col">Create Date</th>
                                         
                                         
@@ -31,11 +30,11 @@
                                         <th scope="row">
                                         <button class="btn btn-danger btn-sm" type="submit"><i class="fas fa-times"></i></button>
                                         </th>
-                                        <td>1</td>
+                                        
                                         <td>Falasteen</td>
                                         <td>fa@gmail.com</td>
-                                        <td>Title Title</td>
-                                        <td>Title TitleTitle Title Title Title </td>
+                                        <td>Title Title Title TitleTitle Title Title Title </td>
+                                        <td>059876765</td>
                                         <td>15 minutes ago</td>
                                     
                                     </tr>
@@ -45,11 +44,24 @@
                                         <th scope="row">
                                         <button class="btn btn-danger btn-sm" type="submit"><i class="fas fa-times"></i></button>
                                         </th>
-                                        <td>1</td>
+                                        
                                         <td>Falasteen</td>
                                         <td>fa@gmail.com</td>
-                                        <td>Title Title</td>
-                                        <td>Title TitleTitle Title Title Title </td>
+                                        <td>Title Title Title TitleTitle Title Title Title </td>
+                                        <td>059876765</td>
+                                        <td>15 minutes ago</td>
+                                    
+                                    </tr>
+
+                                    <tr>
+                                        <th scope="row">
+                                        <button class="btn btn-danger btn-sm" type="submit"><i class="fas fa-times"></i></button>
+                                        </th>
+                                        
+                                        <td>Falasteen</td>
+                                        <td>fa@gmail.com</td>
+                                        <td>Title Title Title TitleTitle Title Title Title </td>
+                                        <td>059876765</td>
                                         <td>15 minutes ago</td>
                                     
                                     </tr>
@@ -59,39 +71,11 @@
                                         <th scope="row">
                                         <button class="btn btn-danger btn-sm" type="submit"><i class="fas fa-times"></i></button>
                                         </th>
-                                        <td>1</td>
+                                        
                                         <td>Falasteen</td>
                                         <td>fa@gmail.com</td>
-                                        <td>Title Title</td>
-                                        <td>Title TitleTitle Title Title Title </td>
-                                        <td>15 minutes ago</td>
-                                    
-                                    </tr>
-
-
-                                    <tr>
-                                        <th scope="row">
-                                        <button class="btn btn-danger btn-sm" type="submit"><i class="fas fa-times"></i></button>
-                                        </th>
-                                        <td>1</td>
-                                        <td>Falasteen</td>
-                                        <td>fa@gmail.com</td>
-                                        <td>Title Title</td>
-                                        <td>Title TitleTitle Title Title Title </td>
-                                        <td>15 minutes ago</td>
-                                    
-                                    </tr>
-
-
-                                    <tr>
-                                        <th scope="row">
-                                        <button class="btn btn-danger btn-sm" type="submit"><i class="fas fa-times"></i></button>
-                                        </th>
-                                        <td>1</td>
-                                        <td>Falasteen</td>
-                                        <td>fa@gmail.com</td>
-                                        <td>Title Title</td>
-                                        <td>Title TitleTitle Title Title Title </td>
+                                        <td>Title Title Title TitleTitle Title Title Title </td>
+                                        <td>059876765</td>
                                         <td>15 minutes ago</td>
                                     
                                     </tr>
@@ -100,11 +84,37 @@
                                         <th scope="row">
                                         <button class="btn btn-danger btn-sm" type="submit"><i class="fas fa-times"></i></button>
                                         </th>
-                                        <td>1</td>
+                                        
                                         <td>Falasteen</td>
                                         <td>fa@gmail.com</td>
-                                        <td>Title Title</td>
-                                        <td>Title TitleTitle Title Title Title </td>
+                                        <td>Title Title Title TitleTitle Title Title Title </td>
+                                        <td>059876765</td>
+                                        <td>15 minutes ago</td>
+                                    
+                                    </tr>
+
+                                    <tr>
+                                        <th scope="row">
+                                        <button class="btn btn-danger btn-sm" type="submit"><i class="fas fa-times"></i></button>
+                                        </th>
+                                        
+                                        <td>Falasteen</td>
+                                        <td>fa@gmail.com</td>
+                                        <td>Title Title Title TitleTitle Title Title Title </td>
+                                        <td>059876765</td>
+                                        <td>15 minutes ago</td>
+                                    
+                                    </tr>
+
+                                    <tr>
+                                        <th scope="row">
+                                        <button class="btn btn-danger btn-sm" type="submit"><i class="fas fa-times"></i></button>
+                                        </th>
+                                        
+                                        <td>Falasteen</td>
+                                        <td>fa@gmail.com</td>
+                                        <td>Title Title Title TitleTitle Title Title Title </td>
+                                        <td>059876765</td>
                                         <td>15 minutes ago</td>
                                     
                                     </tr>

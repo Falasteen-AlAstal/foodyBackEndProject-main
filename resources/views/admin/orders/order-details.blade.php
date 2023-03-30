@@ -51,6 +51,7 @@
                                         <th scope="col">Meal Name</th>
                                         <th scope="col">Quantity</th>
                                         <th scope="col">Price</th>
+                                        <th scope="col">Coupon Value</th>
                                         <th scope="col">Total</th>
                                     </tr>
                                 </thead>
@@ -59,15 +60,19 @@
                                         <th scope="row">burger</th>
                                         <td>2</td>
                                         <td>25</td>
+                                        <td>30%</td>
                                         <td>50</td>
                                     </tr>
 
                                     <tr>
                                         <th scope="row">burger</th>
                                         <td>2</td>
+                                        
                                         <td>25</td>
-                                        <td>50</td>
+                                        <td>30%</td>
+                                        
                                     </tr>
+                                    
                                     
                                 </tbody>
                             </table>

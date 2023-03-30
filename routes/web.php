@@ -45,6 +45,22 @@ Route::get('/foody/editChallenges', function () {
     return view('admin.challenges.edit');
 })->name("challenges.edit");
 
+//Route Food categories
+
+Route::get('/foody/categories', function () {
+    return view('admin.foodCategories.index');
+})->name("food-categories.index");
+
+
+Route::get('/foody/addCategories', function () {
+    return view('admin.foodCategories.create');
+})->name("food-categories.create");
+
+Route::get('/foody/editCategories', function () {
+    return view('admin.foodCategories.edit');
+})->name("food-categories.edit");
+
+
 
 //Route categories
 
@@ -93,6 +109,20 @@ Route::get('/foody/editAlternatives', function () {
 })->name("alternatives.edit");
 
 
+//products
+
+Route::get('/foody/Products', function () {
+    return view('admin.products.index');
+})->name("products.index");
+
+
+Route::get('/foody/addProducts', function () {
+    return view('admin.products.create');
+})->name("products.create");
+
+Route::get('/foody/editProducts', function () {
+    return view('admin.products.edit');
+})->name("products.edit");
 
 //Route orders
 
@@ -113,6 +143,11 @@ Route::get('/foody/messages', function () {
 })->name("messages.index");
 
 
+//profile Admin
+
+Route::get('/foody/profile', function () {
+    return view('admin.profile.index');
+})->name("profile.index");
 
 
 

@@ -18,7 +18,7 @@
                                 <thead>
                                     <tr>
                                         <th scope="col">Action</th>
-                                        <th scope="col">id</th>
+                                        
                                         <th scope="col">User Name</th>
                                         <th scope="col">Payment</th>
                                         <th scope="col">Total Price</th>
@@ -32,7 +32,7 @@
                                         <th scope="row">
                                         <button class="btn btn-danger btn-sm" type="submit"><i class="fas fa-times"></i></button>
                                         </th>
-                                        <td>1</td>
+                                        
                                         <td>Falasteen</td>
                                         <td>cash</td>
                                         <td>150$</td>
@@ -48,7 +48,7 @@
                                         <th scope="row">
                                         <button class="btn btn-danger btn-sm" type="submit"><i class="fas fa-times"></i></button>
                                         </th>
-                                        <td>2</td>
+                                        
                                         <td>Falasteen</td>
                                         <td>cash</td>
                                         <td>150$</td>
@@ -64,7 +64,7 @@
                                         <th scope="row">
                                         <button class="btn btn-danger btn-sm" type="submit"><i class="fas fa-times"></i></button>
                                         </th>
-                                        <td>3</td>
+                                        
                                         <td>Falasteen</td>
                                         <td>cash</td>
                                         <td>150$</td>
@@ -80,7 +80,7 @@
                                         <th scope="row">
                                         <button class="btn btn-danger btn-sm" type="submit"><i class="fas fa-times"></i></button>
                                         </th>
-                                        <td>4</td>
+                                        
                                         <td>Falasteen</td>
                                         <td>cash</td>
                                         <td>150$</td>
@@ -96,7 +96,7 @@
                                         <th scope="row">
                                         <button class="btn btn-danger btn-sm" type="submit"><i class="fas fa-times"></i></button>
                                         </th>
-                                        <td>5</td>
+                                        
                                         <td>Falasteen</td>
                                         <td>cash</td>
                                         <td>150$</td>
@@ -111,23 +111,7 @@
                                         <th scope="row">
                                         <button class="btn btn-danger btn-sm" type="submit"><i class="fas fa-times"></i></button>
                                         </th>
-                                        <td>6</td>
-                                        <td>Falasteen</td>
-                                        <td>cash</td>
-                                        <td>150$</td>
-                                        <td>
-                                          <input type="hidden" name="order_status" value="1">
-                                          <button type="submit" class="btn btn-warning btn-sm">Pending</button>
-                                        </td>
-                                        <td><a href="">Order Details</a></td>
-                                    </tr>
-
-
-                                    <tr>
-                                        <th scope="row">
-                                        <button class="btn btn-danger btn-sm" type="submit"><i class="fas fa-times"></i></button>
-                                        </th>
-                                        <td>7</td>
+                                       
                                         <td>Falasteen</td>
                                         <td>cash</td>
                                         <td>150$</td>
@@ -143,7 +127,23 @@
                                         <th scope="row">
                                         <button class="btn btn-danger btn-sm" type="submit"><i class="fas fa-times"></i></button>
                                         </th>
-                                        <td>8</td>
+                                        
+                                        <td>Falasteen</td>
+                                        <td>cash</td>
+                                        <td>150$</td>
+                                        <td>
+                                          <input type="hidden" name="order_status" value="1">
+                                          <button type="submit" class="btn btn-warning btn-sm">Pending</button>
+                                        </td>
+                                        <td><a href="">Order Details</a></td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <th scope="row">
+                                        <button class="btn btn-danger btn-sm" type="submit"><i class="fas fa-times"></i></button>
+                                        </th>
+                                        
                                         <td>Falasteen</td>
                                         <td>cash</td>
                                         <td>150$</td>
@@ -159,7 +159,7 @@
                                         <th scope="row">
                                         <button class="btn btn-danger btn-sm" type="submit"><i class="fas fa-times"></i></button>
                                         </th>
-                                        <td>9</td>
+                                        
                                         <td>Falasteen</td>
                                         <td>cash</td>
                                         <td>150$</td>

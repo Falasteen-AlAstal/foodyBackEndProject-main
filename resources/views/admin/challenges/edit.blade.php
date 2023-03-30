@@ -21,17 +21,36 @@
                                 <label for="floatingInput">Title</label>
                             </div>
 
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" placeholder="Leave a comment here"
-                                    id="floatingTextarea" style="height: 150px;"></textarea>
-                                <label for="floatingTextarea">Description</label>
-                            </div>
+                            
 
                       
                             <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingPassword"
-                                    placeholder="">
-                                <label for="floatingTextarea">Time</label>
+                                <input type="text" class="form-control" id="floatingInput"
+                                    placeholder="Falasteen">
+                                <label for="floatingInput">Coupon Value</label>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput"
+                                    placeholder="Falasteen">
+                                <label for="floatingInput">Coupon Code</label>
+                            </div>
+
+                            
+
+
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput"
+                                    placeholder="Falasteen">
+                                <label for="floatingInput">Duration</label>
+                            </div>
+
+                          
+                           
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput"
+                                    placeholder="Falasteen">
+                                <label for="floatingInput">Start Day</label>
                             </div>
                            
 

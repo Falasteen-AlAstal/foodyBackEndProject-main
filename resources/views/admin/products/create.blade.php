@@ -2,29 +2,17 @@
 
 @section('content')
 
-          <div class="container-fluid pt-4 px-4">
+
+         
+            
+            <div class="container-fluid pt-4 px-4">
                 <div class="row g-4">
 
-                <h1 class="h3 mb-2 text-gray-800">Edit Food</h1>
-
+                <h1 class="h3 mb-2 text-gray-800">Add New Products</h1>
             <div class="col-12">
                         <div class="bg-secondary rounded h-100 p-4">
-                            <h6 class="mb-4">Food Edit Form</h6>
+                            <h6 class="mb-4">Product Create Form</h6>
 
-
-                            <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingInput"
-                                    placeholder="Falasteen">
-                                <label for="floatingInput">Name</label>
-                            </div>
-
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" placeholder="Leave a comment here"
-                                    id="floatingTextarea" style="height: 150px;"></textarea>
-                                <label for="floatingTextarea">Description</label>
-                            </div>
-
-                            
                             <div class="form-floating mb-3">
                                 <select class="form-select" id="floatingSelect"
                                     aria-label="Floating label select example">
@@ -37,21 +25,30 @@
                                     <option value="6">Healthy Diet</option>
                                     <option value="7">Normal</option>
                                 </select>
-                                <label for="floatingSelect">Category name</label>
+                                <label for="floatingSelect">Products name</label>
                             </div>
 
-                           
+
                             <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingPassword"
-                                    placeholder="">
-                                <label for="floatingTextarea">Price</label>
+                                <input type="text" class="form-control" id="floatingInput"
+                                    placeholder="Falasteen">
+                                <label for="floatingInput">weight</label>
                             </div>
+
                             <div class="form-floating mb-3">
                                 <input type="text" class="form-control" id="floatingPassword"
                                     placeholder="">
                                 <label for="floatingTextarea">Quantity</label>
                             </div>
 
+
+                        
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingPassword"
+                                    placeholder="">
+                                <label for="floatingTextarea">discount value</label>
+                            </div>
+                           
                     
                             <div>
                                 
@@ -60,7 +57,7 @@
                             </div>
 
                             <div class="form-group">
-                            <button type="button" class="btn btn-success m-2">Update</button>
+                            <button type="button" class="btn btn-success m-2">Create</button>
                             <button type="button" class="btn btn-primary m-2">Reset</button>
                 </div>
                            
